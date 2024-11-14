@@ -1,0 +1,27 @@
+.main{
+    height: 500px;
+    width: 600px;
+    border: 1px solid black;
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: lightcoral;
+}
+.left{
+    padding: 10px;
+}
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.right button{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+
+}
